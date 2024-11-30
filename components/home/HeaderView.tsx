@@ -43,7 +43,7 @@ export function HeaderView() {
         onSelectEmoji={handlePickEmoji}
       />
 
-      <View className="w-full mt-5 px-4 flex-row items-center">
+      {/* <View className="w-full mt-5 px-4 flex-row items-center">
         <View className="flex-1 bg-white dark:bg-gray-100 border border-gray-300 dark:border-gray-600 rounded-md min-w-32 max-w-32 max-h-12">
             <Picker
             className='h-9 min-w-32'
@@ -66,7 +66,7 @@ export function HeaderView() {
           className="bg-blue-500 dark:bg-blue-700 rounded-md items-center flex-1 max-w-5">
           <Text className="text-white text-lg">></Text>
         </TouchableOpacity>
-      </View>
+      </View> */}
     </ThemedView>
   );
 }

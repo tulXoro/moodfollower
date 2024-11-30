@@ -57,8 +57,7 @@ export default function RootLayout() {
     />
 
     <NavThemeProvider value={NAV_THEME[colorScheme]}>
-      <Stack>
-        <Stack.Screen name="index" />
+      <Stack >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
