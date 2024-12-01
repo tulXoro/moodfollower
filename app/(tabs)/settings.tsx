@@ -3,6 +3,8 @@ import { Picker } from '@react-native-picker/picker'
 import React, { useState, useEffect } from 'react'
 import { useColorScheme } from 'react-native'
 
+import { ThemedView } from '@/components/ThemedView'
+
 export default function Settings() {
   const systemTheme = useColorScheme()
   const [theme, setTheme] = useState<'light' | 'dark' | 'system'>(systemTheme || 'light')
@@ -32,7 +34,7 @@ export default function Settings() {
   }
 
   return (
-    <View className={getContainerStyle()}>
+    <ThemedView className={getContainerStyle()}>
       <Text className={getTextStyle()}>Settings</Text>
       <Picker
         selectedValue={theme}
@@ -43,6 +45,6 @@ export default function Settings() {
         <Picker.Item label="Light" value="light" />
         <Picker.Item label="Dark" value="dark" />
       </Picker>
-    </View>
+    </ThemedView>
   )
 }

@@ -7,7 +7,7 @@ import { ThemedView } from '@/components/ThemedView';
 
 import Contacts from '@/components/home/Contacts';
 
-import { HeaderView } from '@/components/home/HeaderView';
+import HeaderView from '@/components/home/HeaderView';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
