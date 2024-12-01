@@ -14,14 +14,15 @@
     ],
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tulx.moodfollower"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.moodfollower",
+      "package": "com.tulx.moodfollower",
       "permissions": [
         "INTERNET"
       ]
@@ -45,6 +46,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3f72bae9-630b-497b-b874-563116f4d5f2"
+      }
     }
   }
 }

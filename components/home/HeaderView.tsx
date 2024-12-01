@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, TextInput } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { ThemedView } from '@/components/ThemedView';
-import EmojiPickerModal from '@/components/emoji/EmojiPickerModal';
+import EmojiPickerModal from '@/components/modals/EmojiPickerModal';
 
 export function HeaderView() {
   const [mood, setMood] = React.useState('');

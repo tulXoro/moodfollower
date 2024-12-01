@@ -1,4 +1,4 @@
-package com.anonymous.moodfollower
+package com.tulx.moodfollower
 
 import android.app.Application
 import android.content.res.Configuration

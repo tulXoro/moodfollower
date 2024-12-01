@@ -1,4 +1,4 @@
-package com.anonymous.moodfollower
+package com.tulx.moodfollower
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

@@ -27,6 +27,7 @@
         <data android:scheme="myapp"/>
         <data android:scheme="com.anonymous.moodfollower"/>
         <data android:scheme="exp+moodfollower"/>
+        <data android:scheme="com.tulx.moodfollower"/>
       </intent-filter>
     </activity>
   </application>

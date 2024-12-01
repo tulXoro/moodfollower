@@ -86,9 +86,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.moodfollower'
+    namespace 'com.tulx.moodfollower'
     defaultConfig {
-        applicationId 'com.anonymous.moodfollower'
+        applicationId 'com.tulx.moodfollower'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
